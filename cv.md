@@ -58,5 +58,3 @@ Completed project on Udemy courses **"Web Developer"** by author *Ivan Petrichen
 * English (A1)
 * Russian - Native
 * Polish - Basic
-
-
