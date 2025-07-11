@@ -1,0 +1,21 @@
+.container {
+    margin: 25px auto;
+    width: 1024px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation_list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation_item a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
