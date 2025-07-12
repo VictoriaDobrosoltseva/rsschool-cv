@@ -5,7 +5,7 @@
 .container {
     margin: 25px auto;
     width: 1024px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Arial, sans-serif;
     background-color: #F2F2F2;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -31,19 +31,20 @@
 }
 
 .first_column {
+    margin-top: 120px;
     width: 512px;
     background-color: #F2F2F2;
 }
 
 .image {
     position: absolute;
-    top: 250px;
+    top: 360px;
     width: 250px;
     height: 250px;
     margin: 0 125px;
     border-radius: 50%;
     object-fit: cover;
-    border: 20px solid #dad9ee;
+    border: 20px solid #d8d7f0;
 }
 
 .name {
@@ -83,3 +84,31 @@
 .content_list_img {
     margin-right: 10px;
 }
+
+.content_list p {
+    margin: 10px;
+}
+
+.list_languages {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.list_languages li {
+    margin-bottom: 20px;
+}
+
+.second_column {
+    margin: 40px;
+}
+
+.profile_title {
+    width: 100px;
+    padding: 5px;
+    background-color: #dad9ee;
+}
+
+.profile_text {
+    line-height: 25px;
+}
+
