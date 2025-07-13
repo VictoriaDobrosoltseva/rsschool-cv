@@ -134,6 +134,7 @@ html {
 
 .education_list li {
     margin-bottom: 10px;
+    line-height: 25px;
 }
 
 .skills_list li {
