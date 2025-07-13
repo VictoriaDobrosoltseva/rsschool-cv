@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #D9D1D0;
+}
+
+.container {
+    margin: 25px auto;
+    width: 1024px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    background-color: #F2F2F2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation_list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 100px 100px;
+}
+
+.navigation_item a {
+    text-decoration: none;
+    color: #0D0D0D;
+    transition: color 0.5s;
+}
+
+.navigation_item a:hover {
+    color: #cccbeb;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_column {
+    margin-top: 120px;
+    width: 512px;
+    background-color: #F2F2F2;
+}
+
+.image {
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    height: 250px;
+    margin: 0 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 20px solid #d8d7f0;
+}
+
+.name {
+    width: 512px;
+    height: 350px;
+    background-color: #E0DFF2;
+}
+
+.my_name {
+    margin: 0;
+    padding: 130px 80px 0 80px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.name h2 {
+    padding: 0 80px 0 80px;
+}
+
+.first_column_title {
+    margin: 30px auto;
+    padding: 3px 10px;
+    font-size: 20px;
+    width: 170px;
+    text-align: center;
+    background-color: #dad9ee;
+}
+
+.list {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.content_list {
+    display: flex;
+    align-items: center;
+}
+
+.content_list_img {
+    margin-right: 10px;
+}
+
+.content_list p {
+    margin: 10px;
+}
+
+.list_languages {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.list_languages li {
+    margin-bottom: 20px;
+}
+
+.second_column {
+    margin: 40px;
+}
+
+.second_column_title {
+    width: 170px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #dad9ee; 
+
+}
+
+.second_column_text {
+    line-height: 25px;
+}
+
+.profile_list li {
+    margin-bottom: 10px;
+}
+
+.profile_text {
+    line-height: 25px;
+}
+
+.education_list li {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.skills_list li {
+    margin-bottom: 10px;
+}
+
+.experience_link {
+    text-decoration: none;
+    color: #9390c2;
+}
+
+.pre {
+    background-color: #ececec;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    background-color: #E0DFF2;
+}
+
+.git_link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.githab_icon {
+    height: 60px;
+}
+
+.rs_school_logo {
+    width: 80px;
+    height: 60px;
+}
