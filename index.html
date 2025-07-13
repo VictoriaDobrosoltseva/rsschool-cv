@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victoria Dobrosoltseva</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body class="body">
     <div class="container">
         <header>
             <nav class="navigation">
                 <ul class="navigation_list">
-                    <li class="navigation_item"><a href="#">About Me</a></li>
-                    <li class="navigation_item"><a href="#">Skills</a></li>
-                    <li class="navigation_item"><a href="#">Code example</a></li>
-                    <li class="navigation_item"><a href="#">Experience</a></li>
-                    <li class="navigation_item"><a href="#">Education</a></li>
-                    <li class="navigation_item"><a href="#">Languages</a></li>
-                    <li class="navigation_item"><a href="#">Contacts</a></li>
+                    <li class="navigation_item"><a href="#profile">About Me</a></li>
+                    <li class="navigation_item"><a href="#skills">Skills</a></li>
+                    <li class="navigation_item"><a href="#code">Code example</a></li>
+                    <li class="navigation_item"><a href="#experience">Experience</a></li>
+                    <li class="navigation_item"><a href="#eucation">Education</a></li>
+                    <li class="navigation_item"><a href="#languages">Languages</a></li>
+                    <li class="navigation_item"><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,35 +29,35 @@
         <main class="main-container">
             <div class="columns">
                 <div class="first_column">
-                    <img src="assest/profile.jfif" alt="my photo" class="image">
+                    <img src="assest/img/profile.jfif" alt="my photo" class="image">
                     <div class="name">
                         <h1 class="my_name">Victoria Dobrosoltseva</h1>
                         <h2>Front-End Developer</h2>
                     </div>
 
-                    <section class="contacts">
+                    <section class="contacts" id="contacts">
                         <h2 class="first_column_title">Contacts</h2>
                         <ul class="list">
                             <li class="content_list">
-                                <img class="content_list_img" src="assest/location.png" alt="location">
+                                <img class="content_list_img" src="assest/img/location.png" alt="location">
                                 <p>Minsk, Belarus</p>
                             </li>
                             <li class="content_list">
-                                <img class="content_list_img" src="assest/discord.png" alt="discord">
+                                <img class="content_list_img" src="assest/img/discord.png" alt="discord">
                                 <p>Tori (@VictoriaDobrosoltseva)</p>
                             </li>
                             <li class="content_list">
-                                <img class="content_list_img" src="assest/telegramm.png" alt="telegramm">
+                                <img class="content_list_img" src="assest/img/telegramm.png" alt="telegramm">
                                 <p>@ToriBleyz</p>
                             </li>
                             <li class="content_list">
-                                <img class="content_list_img" src="assest/gmail.png" alt="gmail">
+                                <img class="content_list_img" src="assest/img/gmail.png" alt="gmail">
                                 <p>dobrosolceva6@gmail.com</p>
                             </li>
                         </ul>
                     </section>
 
-                    <section class="languages">
+                    <section class="languages" id="languages">
                         <h2 class="first_column_title">Languages</h2>
                         <ul class="list_languages">
                             <li>English (A2)</li>
@@ -63,7 +67,7 @@
                     </section>
                 </div> 
                 <div class="second_column">
-                    <section class="profile">
+                    <section class="profile" id="profile">
                         <h2 class="second_column_title">Profile</h2>
                         <p class="second_column_text">I realized a long time ago that I wanted to get into IT. I tried myself in different areas:</p>
                         <ul class="profile_list">
@@ -77,7 +81,7 @@
                         Currently I work as a teacher of mathematics, physics and computer science.</p>
                     </section>
 
-                    <section class="education">
+                    <section class="education" id="education">
                         <h2 class="second_column_title">Education</h2>
                         <strong>University</strong>
                         <p class="second_column_text">Belarusian State Pedagogical University named after Maxim Tank</p>
@@ -90,7 +94,7 @@
                         </ul>
                     </section>
 
-                    <section class="skills">
+                    <section class="skills" id="skills">
                         <h2 class="second_column_title">Skills</h2>
                         <ul class="skills_list">
                             <li>HTML5, CSS3</li>
@@ -101,12 +105,12 @@
                         </ul>
                     </section>
 
-                    <section class="experience">
+                    <section class="experience" id="experience">
                         <h2 class="second_column_title">Experience</h2>
                         <p class="second_column_text">Completed project on Udemy courses <strong>"Web Developer"</strong> by author <i>Ivan Petrichenko</i>: <a href="https://github.com/VictoriaDobrosoltseva/Monovision_Studio" target="_blank" class="experience_link">Monovision Studio</a></p>
                     </section>
 
-                    <section class="code">
+                    <section class="code" id="code">
                         <h2 class="second_column_title">Code example</h2>
                         <pre class="pre"><code>
  function sum(a, b) {
@@ -118,6 +122,19 @@
                 </div>   
             </div>
         </main>
+
+        <footer class="footer">
+            <a href="https://github.com/VictoriaDobrosoltseva" target="_blank" class="git_link">
+                <img src="assest/svg/github.svg" alt="icon github" class="githab_icon">
+                <p>My GitHub</p>
+            </a>
+
+            <p>©2025</p>
+
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="assest/svg/rs-school-logo.svg" alt="rsschool logo" class="rs_school_logo">
+            </a>
+        </footer>
     </div>
 </body>
 </html>
