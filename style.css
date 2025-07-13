@@ -102,13 +102,21 @@
     margin: 40px;
 }
 
-.profile_title {
-    width: 100px;
+.second_column_title {
+    width: 170px;
     padding: 5px;
     background-color: #dad9ee;
 }
 
-.profile_text {
+.second_column_text {
     line-height: 25px;
+}
+
+.profile_list li {
+    margin-bottom: 10px;
+}
+
+.education_list li {
+    margin-bottom: 10px;
 }
 
