@@ -1,4 +1,4 @@
-# Viktoryia Dabrasoltsava 
+# Viktoryia Dabrasoltsava
 ---
 
 ## Contacts
@@ -10,11 +10,11 @@
 * GitHub: [VictoriaDobrosoltseva](https://github.com/VictoriaDobrosoltseva)
 ---
 ## About Me
-I realized a long time ago that I wanted to get into IT. I tried myself in different areas: 
-* Web design 
-* Manual testing (I completed courses) 
-* Python 
-* 3D modeling 
+I realized a long time ago that I wanted to get into IT. I tried myself in different areas:
+* Web design
+* Manual testing (I completed courses)
+* Python
+* 3D modeling
 
 And at that moment I decided to try myself in front-end development. I studied independently on YouTube, studied courses on Udemy and over time I realized that I wanted to develop in this direction.
 
